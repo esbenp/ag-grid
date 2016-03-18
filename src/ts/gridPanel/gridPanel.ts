@@ -528,7 +528,7 @@ export default class GridPanel {
         }
 
         // if we don't prevent default, then the whole browser will scroll also as well as the grid
-        event.preventDefault();
+        // event.preventDefault();
         return false;
     }
 

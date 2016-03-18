@@ -10452,7 +10452,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            targetPanel.scrollTop = newTopPosition;
 	        }
 	        // if we don't prevent default, then the whole browser will scroll also as well as the grid
-	        event.preventDefault();
+	        // event.preventDefault();
 	        return false;
 	    };
 	    GridPanel.prototype.setBodyContainerWidth = function () {
