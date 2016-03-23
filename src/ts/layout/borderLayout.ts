@@ -220,7 +220,7 @@ export default class BorderLayout {
         }
 
         if (this.centerHeightLastTime !== centerHeight) {
-            this.eCenterRow.style.height = centerHeight + 'px';
+            //this.eCenterRow.style.height = centerHeight + 'px';
             this.centerHeightLastTime = centerHeight;
             return true; // return true because there was a change
         } else {
